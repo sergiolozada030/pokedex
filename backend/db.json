@@ -1,0 +1,54 @@
+{
+  "list": [
+    {
+      "id": "006",
+      "nombre": "CHARIZARD",
+      "url_img": "Charizard.png",
+      "level": "100",
+      "type": "FIRE",
+      "hability": "FLAMES",
+      "height": "1,7",
+      "weinght": "90,5 kg"
+    },
+    {
+      "id": "025",
+      "nombre": "PIKACHU",
+      "url_img": "Pikachu.png",
+      "level": "100",
+      "type": "ELECTRIC",
+      "hability": "ELECTRICITY",
+      "height": "0,4",
+      "weinght": "6,0 kg"
+    },
+    {
+      "id": "009",
+      "nombre": "BLASTOISE",
+      "url_img": "Blastoise.png",
+      "level": "100",
+      "type": "WATER",
+      "hability": "TORRENT",
+      "height": "1,6",
+      "weinght": "85,5 kg"
+    },
+    {
+      "id": "004",
+      "nombre": "CHARMANDER",
+      "url_img": "Charmander.png",
+      "level": "100",
+      "type": "FIRE",
+      "hability": "FLAMES",
+      "height": "0,6",
+      "weinght": "8,5 kg"
+    },
+    {
+      "id": "498",
+      "nombre": "TEPIG",
+      "url_img": "Tepig.png",
+      "level": "100",
+      "type": "FIRE",
+      "hability": "FLAMES",
+      "height": "0,5",
+      "weinght": "9,9 kg"
+    }
+  ]
+}
