@@ -24,7 +24,6 @@ body {
 
 .header__navegacion {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -37,6 +36,26 @@ body {
   font-size: 14px;
 }
 
+@media (min-width: 720px) {
+  .header {
+    height: 3rem;
+    justify-content: flex-start;
+  }
+
+  .header__navegacion {
+    margin-left: 2rem;
+  }
+
+  .header__logo {
+    height: 1.8rem;
+  }
+
+  .header__titulo {
+    font-size: 16px;
+  }
+}
+/* Aquí empiezan los estilos del main */
+
 .container {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -44,10 +63,9 @@ body {
 
 @media (min-width: 720px) {
   .container {
+    padding: 0;
     display: flex;
-    width: 80%;
     margin: auto;
-    padding: 2rem 0;
     justify-content: center;
   }
 }
@@ -68,6 +86,7 @@ body {
 @media (min-width: 720px) {
   .pokemon__header {
     width: 100%;
+    height: 2.5rem;
   }
 }
 
@@ -89,6 +108,14 @@ body {
   .contenido {
     width: 100%;
   }
+
+  .pokemon__logo {
+    height: 2rem;
+  }
+
+  .pokemon__titulo {
+    font-size: 18px;
+  }
 }
 
 .contenido__imagen {
@@ -96,6 +123,8 @@ body {
   top: 1.2rem;
   max-width: 100%;
 }
+
+/* Aquí empiezan los estilos de la card de datos */
 
 .card {
   width: 70%;
@@ -151,6 +180,10 @@ body {
   font-size: 13px;
 }
 
+.card_texto {
+  font-size: 12px;
+}
+
 @media (min-width: 720px) {
   .card_titulo {
     width: 6rem;
@@ -158,19 +191,15 @@ body {
     font-weight: 100;
     margin: 0.5rem 0;
   }
-}
 
-.card_texto {
-  font-size: 12px;
-}
-
-@media (min-width: 720px) {
   .card_texto {
     font-size: 16px;
     font-weight: 700;
     margin: 0;
   }
 }
+
+/* Aquí empiezan los estilos del footer */
 
 .footer {
   background-color: var(--blanco);
@@ -179,12 +208,12 @@ body {
   margin-top: auto;
 }
 
-.container-footer {
+.footer-container {
   height: 10rem;
 }
 
 @media (min-width: 720px) {
-  .container-footer {
+  .footer-container {
     display: flex;
     width: 80%;
     margin: auto;
