@@ -235,6 +235,8 @@ body {
   align-items: center;
   justify-content: center;
   box-shadow: 0px 0px 15px 0.3px rgb(0 0 0 / 15%);
+  transition-property: transform;
+  transition-duration: 300ms;
 }
 
 @media (min-width: 720px) {
@@ -247,6 +249,7 @@ body {
 .footer__contenedor-imagen:hover {
   background-color: var(--primario);
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .footer_imagen {
