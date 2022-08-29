@@ -282,7 +282,7 @@ body {
   }
 }
 
-.footer__contenedor-imagen:hover {
+.contenedor__imagen:hover {
   background-color: var(--primario);
   cursor: pointer;
   transform: scale(1.1);
